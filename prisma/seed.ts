@@ -1,5 +1,5 @@
 // Converted to JS in-place later; keep TS for now but we'll run via node-compatible JS import
-import { PrismaClient } from "../app/generated/prisma";
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
